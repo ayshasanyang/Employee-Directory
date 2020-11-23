@@ -1,4 +1,9 @@
 # Employee-Directory
+
+## Description
+
+Thi's a React app that utilizes API to populate random users. It allows you to search for an employee by entering their names in a search box, which will dynamically search the field and filter the names that match the search.
+
 [Deployed App in Heroku](https://damp-brook-92235.herokuapp.com/)
 
 ![Employee Directory](public/img/user_directory.gif)
@@ -21,3 +26,13 @@ npm install
 ```
  npm start
 ```
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+## Deploying to Heroku With
+- buildpack heroku buildpacks:set mars/create-react-app -a damp-brook-92235
+
+
+## Questions
+For any other questions, please send me an email at: isasanyang1986@yahoo.co.uk
