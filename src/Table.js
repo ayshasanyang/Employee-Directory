@@ -11,7 +11,7 @@ const Table = ({ users }) => {
     <div>
 
       <table className="table">
-        <thead>
+        <thead className="header">
           <tr>
             <th scope="col">picture</th>
             <th scope="col"
