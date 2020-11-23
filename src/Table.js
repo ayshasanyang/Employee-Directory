@@ -39,7 +39,6 @@ const Table = ({ users }) => {
             <th scope="col">Last</th>
             <th scope="col">email</th>
             <th scope="col">phone</th>
-            <th scope="col">cell</th>
             <th scope="col">city</th>
             <th scope="col">state</th>
             <th scope="col">country</th>
@@ -52,10 +51,9 @@ const Table = ({ users }) => {
             ({
               location: { city, state, country, postcode },
               picture: { thumbnail },
-              cell,
               phone,
               email,
-              name: { first, last, title }
+              name: { first, last}
             }) => (
                 <tr key={email}>
                   <td>
@@ -65,7 +63,6 @@ const Table = ({ users }) => {
                   <td>{last}</td>
                   <td>{email}</td>
                   <td>{phone}</td>
-                  <td>{cell}</td>
                   <td>{city}</td>
                   <td>{state}</td>
                   <td>{country}</td>
